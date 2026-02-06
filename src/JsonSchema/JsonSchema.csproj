@@ -117,6 +117,11 @@
     <Version>1.0.3</Version>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(ResourceLanguage)' == 'pt'">
+    <Description>JsonSchema.Net Locale Portuguese (pt)</Description>
+    <Version>3.0.0</Version>
+  </PropertyGroup>
+
   <PropertyGroup Condition="'$(ResourceLanguage)' == 'ru'">
     <Description>JsonSchema.Net Locale Russian (ru)</Description>
     <Version>1.0.2</Version>
